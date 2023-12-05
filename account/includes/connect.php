@@ -1,8 +1,8 @@
 <?php
 session_start();
-$servername = "localhost";
-$server_user = "root";
-$server_pass = "";
+$servername = "deepumysql1.mysql.database.azure.com";
+$server_user = "deepthi";
+$server_pass = "Suchal07052003";
 $dbname = "food";
 $name = $_SESSION['name'];
 $role = $_SESSION['role'];
